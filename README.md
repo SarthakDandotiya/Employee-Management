@@ -21,7 +21,7 @@ The project implements all operations on a MySQL Database, called 'Member' with 
 
 ## Servlets
 We can generate Dynamic Web Pages in Java using Java Servlet.
-This project has 4 Servelets handling various requests:
+This project has 4 Servlets handling various functionalities:
 
 - Save
 - View
