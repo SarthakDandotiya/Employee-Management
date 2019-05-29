@@ -46,5 +46,5 @@ Refer the comments in the code for further understanding.
 
 ## Entity
 
-This is basically a class (Member.java) to model our data in the database, it contains methods to 'get' and 'set' the data into the object as well.
+This is basically a class (Member.java) to model our data in the database, it contains methods to 'get' and 'set' the data from/into the object as well.
 
