@@ -49,3 +49,5 @@ dependency-reduced-pom.xml
 Design-Doc.md
 
 bin/
+
+.settings

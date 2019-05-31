@@ -18,7 +18,7 @@ public class Save extends HttpServlet {
     }
     
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    	request.getRequestDispatcher("index.jsp").forward(request, response);
+    	request.getRequestDispatcher("index.jsp").forward(request, response); // Loads the page
     }
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -42,8 +42,7 @@ public class Save extends HttpServlet {
 		int status = MemberDao.save(m); // Adding data to DB via DAO and assigning returned value
 		
 		if(status>0) {
-			doGet(request, response);
-//			request.getRequestDispatcher("index.jsp").forward(request, response); // redirects to index.html
+			response.sendRedirect("View"); // redirects to view page
 		} else {
 			request.getRequestDispatcher("error.jsp"); // If not successful, display error page
 		}

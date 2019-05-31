@@ -51,7 +51,7 @@ public class Edit extends HttpServlet {
 		int status = MemberDao.update(m); // Adding data to DB via DAO and assigning returned value
 		
 		if(status>0) {
-			request.getRequestDispatcher("edit.jsp").forward(request, response); // If successful then refresh or redirect to the same page
+			response.sendRedirect("View"); // redirects to the view page
 		} else {
 			request.getRequestDispatcher("error.jsp").forward(request, response);
 		}
