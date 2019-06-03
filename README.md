@@ -7,7 +7,9 @@ This is a very rudimental project implementing basic Create, Read, Update & Dele
 ---
 
 ## Database
+
 The project implements all operations on a MySQL Database, called 'Member' with the following structure:
+
 ```
 +-------+--------------+------+-----+---------+-------+
 | Field | Type         | Null | Key | Default | Extra |
@@ -20,13 +22,14 @@ The project implements all operations on a MySQL Database, called 'Member' with 
 ```
 
 ## Servlets
+
 We can generate Dynamic Web Pages in Java using Java Servlet.
 This project has 4 Servlets handling various functionalities:
 
-- Save
-- View
-- Edit
-- Delete
+-   Save
+-   View
+-   Edit
+-   Delete
 
 ## Data Acess Object
 
@@ -35,12 +38,12 @@ In this project 'MemberDao.java' is the class implementing this structural patte
 
 It contains the following functions:
 
-- getConnection
-- save
-- update
-- delete
-- getMemberById
-- getAllMembers
+-   getConnection
+-   save
+-   update
+-   delete
+-   getMemberById
+-   getAllMembers
 
 Refer the comments in the code for further understanding.
 
@@ -48,3 +51,6 @@ Refer the comments in the code for further understanding.
 
 This is basically a class (Member.java) to model our data in the database, it contains methods to 'get' and 'set' the data from/into the object as well.
 
+## Sample
+
+![sample](Example.png)
