@@ -1,6 +1,6 @@
 # Servlet CRUD
 
-This is a very rudimental project implementing basic Create, Read, Update & Delete operations.
+A rudimental project implementing basic Create, Read, Update & Delete operations.
 
 ![Banner](bg.png)
 
