@@ -17,7 +17,7 @@ public class MemberDao {
 		try {
 			// Establishing the connection via JDBC
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/crud", "root", "password");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/crud", "_INSERT_USERNAME_HERE", "_INSERT_PASSWORD_HERE");
 			System.out.println("Connected...");
 		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
